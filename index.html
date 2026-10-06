@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Life in Akwa Ibom</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #071a16;
+      color: white;
+    }
+
+    header {
+      padding: 20px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.35);
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background:
+        linear-gradient(rgba(0, 30, 20, 0.55), rgba(0, 20, 15, 0.85)),
+        url("https://images.unsplash.com/photo-1500534623283-312aade485b7")
+        center/cover;
+    }
+
+    .hero-content {
+      max-width: 750px;
+    }
+
+    .hero h1 {
+      font-size: clamp(45px, 9vw, 90px);
+      line-height: 0.95;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #f5b942;
+    }
+
+    .hero p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .play-button {
+      display: inline-block;
+      padding: 16px 38px;
+      background: #18c76b;
+      color: white;
+      text-decoration: none;
+      border-radius: 40px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .play-button:hover {
+      background: #11a957;
+    }
+
+    .features {
+      padding: 70px 7%;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #102c25;
+      padding: 30px 20px;
+      border-radius: 18px;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+      color: #f5b942;
+    }
+
+    .card p {
+      line-height: 1.5;
+      color: #d7e4df;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #04100d;
+      color: #a9bbb5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🌴 Life in Akwa Ibom</div>
+
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Life in <span>Akwa Ibom</span>
+      </h1>
+
+      <p>
+        Your Life. Your Story. Your Akwa Ibom.
+        Explore Uyo, build your career, make friends,
+        start a business and create the life you've always dreamed of.
+      </p>
+
+      <a href="#features" class="play-button">
+        🎮 PLAY NOW
+      </a>
+
+    </div>
+
+  </section>
+
+  <section class="features" id="features">
+
+    <h2>Build Your Life</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div style="font-size:45px;">🏠</div>
+        <h3>Build Your Home</h3>
+        <p>
+          Start with a simple apartment and work your way
+          toward your dream home.
+        </p>
+      </div>
+
+      <div class="card">
+        <div style="font-size:45px;">💼</div>
+        <h3>Build Your Career</h3>
+        <p>
+          Choose your career, earn money and create your
+          own success story.
+        </p>
+      </div>
+
+      <div class="card">
+        <div style="font-size:45px;">🚗</div>
+        <h3>Explore Uyo</h3>
+        <p>
+          Move around the city, discover new places and
+          experience Akwa Ibom life.
+        </p>
+      </div>
+
+      <div class="card">
+        <div style="font-size:45px;">❤️</div>
+        <h3>Build Relationships</h3>
+        <p>
+          Make friends, meet people and create meaningful
+          relationships.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Life in Akwa Ibom. Your Life. Your Story.
+  </footer>
+
+</body>
+</html>
